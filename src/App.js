@@ -14,6 +14,7 @@ function App() {
           <div className="content">
             <h1>Fibonacci Sequence</h1>
             <h3>The Numbers of Nature</h3>
+            <br /><br /><br /><br />
             <textarea style={{
               width: '50vw'
             }}>{ans}</textarea>
@@ -35,6 +36,7 @@ function App() {
           <div className="content">
             <h1>Fibonacci Sequence</h1>
             <h3>The Numbers of Nature</h3>
+            <br /><br /><br /><br />
             <form>
               <input onChange={(e) => {
                 setNum(e.target.value);
@@ -43,6 +45,10 @@ function App() {
               }} type="number" id="nthterm" placeholder="Enter the nth Term" name="nthterm" min="0" />
               <input onClick={(e) => {
                 if (num.match(/^[1-9]\d*$/g)) {
+                  if (num > 40000) {
+                    var val = window.prompt("Are you sure about the input?", `${num}`);
+                    setNum(val);
+                  }
                   setAns(fib(num));
                   setIsCalc(true);
                   console.log(ans);
