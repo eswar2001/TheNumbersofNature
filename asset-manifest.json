@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/thenumbersofnature/static/css/main.f405a884.chunk.css",
-    "main.js": "/thenumbersofnature/static/js/main.2aaabfd5.chunk.js",
-    "main.js.map": "/thenumbersofnature/static/js/main.2aaabfd5.chunk.js.map",
-    "runtime-main.js": "/thenumbersofnature/static/js/runtime-main.82a76ffe.js",
-    "runtime-main.js.map": "/thenumbersofnature/static/js/runtime-main.82a76ffe.js.map",
-    "static/js/2.484c731b.chunk.js": "/thenumbersofnature/static/js/2.484c731b.chunk.js",
-    "static/js/2.484c731b.chunk.js.map": "/thenumbersofnature/static/js/2.484c731b.chunk.js.map",
-    "static/js/3.9c48e275.chunk.js": "/thenumbersofnature/static/js/3.9c48e275.chunk.js",
-    "static/js/3.9c48e275.chunk.js.map": "/thenumbersofnature/static/js/3.9c48e275.chunk.js.map",
-    "index.html": "/thenumbersofnature/index.html",
-    "static/css/main.f405a884.chunk.css.map": "/thenumbersofnature/static/css/main.f405a884.chunk.css.map",
-    "static/js/2.484c731b.chunk.js.LICENSE.txt": "/thenumbersofnature/static/js/2.484c731b.chunk.js.LICENSE.txt"
+    "main.css": "/TheNumbersofNature/static/css/main.f405a884.chunk.css",
+    "main.js": "/TheNumbersofNature/static/js/main.f0279d1f.chunk.js",
+    "main.js.map": "/TheNumbersofNature/static/js/main.f0279d1f.chunk.js.map",
+    "runtime-main.js": "/TheNumbersofNature/static/js/runtime-main.6833851f.js",
+    "runtime-main.js.map": "/TheNumbersofNature/static/js/runtime-main.6833851f.js.map",
+    "static/js/2.b27fe238.chunk.js": "/TheNumbersofNature/static/js/2.b27fe238.chunk.js",
+    "static/js/2.b27fe238.chunk.js.map": "/TheNumbersofNature/static/js/2.b27fe238.chunk.js.map",
+    "static/js/3.1fd85d51.chunk.js": "/TheNumbersofNature/static/js/3.1fd85d51.chunk.js",
+    "static/js/3.1fd85d51.chunk.js.map": "/TheNumbersofNature/static/js/3.1fd85d51.chunk.js.map",
+    "index.html": "/TheNumbersofNature/index.html",
+    "static/css/main.f405a884.chunk.css.map": "/TheNumbersofNature/static/css/main.f405a884.chunk.css.map",
+    "static/js/2.b27fe238.chunk.js.LICENSE.txt": "/TheNumbersofNature/static/js/2.b27fe238.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.82a76ffe.js",
-    "static/js/2.484c731b.chunk.js",
+    "static/js/runtime-main.6833851f.js",
+    "static/js/2.b27fe238.chunk.js",
     "static/css/main.f405a884.chunk.css",
-    "static/js/main.2aaabfd5.chunk.js"
+    "static/js/main.f0279d1f.chunk.js"
   ]
 }
