@@ -46,7 +46,7 @@ function App() {
               <input onClick={(e) => {
                 if (num.match(/^[1-9]\d*$/g)) {
                   if (num > 40000) {
-                    var val = window.prompt("Are you sure about the input?", `${num}`);
+                    var val = window.prompt("Are you sure about the input ? I don't expect your system to handle...", `${num}`);
                     setNum(val);
                   }
                   setAns(fib(num));
