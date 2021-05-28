@@ -42,9 +42,14 @@ function App() {
                 e.preventDefault();
               }} type="number" id="nthterm" placeholder="Enter the nth Term" name="nthterm" min="0" />
               <input onClick={(e) => {
-                setAns(fib(num));
-                setIsCalc(true);
-                console.log(ans);
+                if (num.match(/^[1-9]\d*$/g)) {
+                  setAns(fib(num));
+                  setIsCalc(true);
+                  console.log(ans);
+                } else {
+                  alert('Enter only +ve numbers');
+                  window.location.reload();
+                }
                 e.preventDefault();
               }} type="submit" value="Submit" />
             </form>
